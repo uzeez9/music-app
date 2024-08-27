@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-container">
+    
+    
+    <section class="screen welcome-screen active">
+      <div class="welcome-content">
+        <img src="./assets/Apple_airpods_max_1-removebg-preview.png" alt="Headphones" class="welcome-image">
+        <h1>Playio</h1>
+        <p>Playio supports artists with tools to create, release, and measure music across a global stage.</p>
+        <button class="next-btn" data-next="dashboard-screen">Get Started</button>
+      </div>
+    </section>
+    
+   
+    <section class="screen dashboard-screen">
+      <div class="dashboard">
+        <div class="dashboard-header">
+          <div class="menu-icon">☰</div>
+          <div class="app-icon">
+            <img src="/assets/music_16592537.png" alt="App Logo">
+          </div>
+        </div>
+
+        <div class="dashboard-content">
+          
+          <div class="featured-artist">
+            <div class="artist-image-container">
+              <img src="./assets/i told dem.jfif" alt="Burna" class="artist-image">
+              <button class="follow-btn">Follow +</button>
+              <p class="streams">1,322,799,000 Streams</p>
+            </div>
+            <div class="artist-info">
+              <h2>Burna Boy</h2>
+            </div>
+          </div>
+
+         
+          <div class="top-mix-section">
+            <div class="section-header">
+              <h3>Top Mix</h3>
+              <a href="#" class="see-all-link">See all</a>
+            </div>
+            <div class="mix-list">
+              <div class="mix-item">
+                <img src="/assets/soh soh 3.png" alt="Soh Soh">
+                <p>Soh Soh</p>
+              </div>
+              <div class="mix-item">
+                <img src="/assets/kante.png" alt="Hello Davis">
+                <p>Kante</p>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="recently-played-section">
+            <div class="section-header">
+              <h3>Recently Played</h3>
+              <a href="#" class="see-all-link">See all</a>
+            </div>
+            <div class="recently-played-list">
+              <div class="recent-item">
+                <img src="/assets/benin boys.png" alt="Never" class="track-cover">
+                <p>Benin boys</p>
+              </div>
+              <div class="recent-item">
+                <img src="/assets/stubborn.png" alt="Jack In The Box" class="track-cover">
+                <p>Stubborn</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="next-btn" data-next="music-player-screen">Go to Player</button>
+      </div>
+    </section>
+
+    
+    <section class="screen music-player-screen">
+      <div class="music-player">
+        <img src="/assets/Burna_Boy_-_African_Giant.png" alt="African Giant" class="track-image">
+        <h3 class="track-title">Collateral Damage</h3>
+        <p class="track-artist">Burna Boy</p>
+
+      
+        <div class="controls">
+          <button class="control-btn"><img src="/assets/backward_17470778.png" alt="Previous"></button>
+          <button class="control-btn play-btn"><img src="/assets/play-button_17470821.png" alt="Play"></button>
+          <button class="control-btn"><img src="/assets/forward_17470788.png" alt="Next"></button>
+          <button class="control-btn"><img src="/assets/reload_14265606.png" alt="Repeat"></button>
+        </div>
+
+       
+        <div class="progress-bar">
+          <div class="progress" style="width: 50%;"></div>
+        </div>
+        <button class="next-btn" data-next="welcome-screen">Back to Start</button>
+      </div>
+    </section>
+
+  </div>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
