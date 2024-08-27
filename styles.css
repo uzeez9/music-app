@@ -242,7 +242,7 @@ body {
     margin-bottom: 20px;
   }
   
-  /* Controls */
+  
   .controls {
     display: flex;
     gap: 20px;
@@ -266,7 +266,7 @@ body {
     transform: scale(1.1);
   }
   
-  /* Progress Bar */
+  
   .progress-bar {
     width: 80%;
     height: 5px;
@@ -282,7 +282,7 @@ body {
     border-radius: 5px;
   }
   
-  /* Responsive Styles */
+  
   @media (max-width: 768px) {
     .next-btn {
       width: 80%;
